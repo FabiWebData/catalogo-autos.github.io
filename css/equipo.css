@@ -1,0 +1,40 @@
+.equipo-titulo{
+    border-radius: 50px 20px;
+    border-style: solid;
+    border-color: rgb(104, 104, 104);
+    background-color: rgba(37, 21, 75, 0.596);
+    margin: 10px 10px;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#equipo{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px 30px;
+    padding: 10px;
+}
+
+.imgper{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto auto;
+}
+
+.descrip{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: yellow;
+}
+
+
+.descrip:hover{
+    box-shadow: 1px 1px 5px 5px rgb(153, 153, 253);
+}
